@@ -12,6 +12,7 @@
 		0E7131621EB5753400127D23 /* GitControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E7131601EB5753400127D23 /* GitControl.xcdatamodeld */; };
 		0E7131641EB5753400127D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7131631EB5753400127D23 /* Assets.xcassets */; };
 		0E7131671EB5753400127D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7131651EB5753400127D23 /* LaunchScreen.storyboard */; };
+		0E7131721EB5773900127D23 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7131711EB5773900127D23 /* RecorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0E7131631EB5753400127D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E7131661EB5753400127D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E7131681EB5753400127D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7131711EB5773900127D23 /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecorderViewController.swift; path = ../RecorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0E7131591EB5753400127D23 /* AppDelegate.swift */,
+				0E7131711EB5773900127D23 /* RecorderViewController.swift */,
 				0E71315D1EB5753400127D23 /* Main.storyboard */,
 				0E71316E1EB5763800127D23 /* Support Files */,
 			);
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7131621EB5753400127D23 /* GitControl.xcdatamodeld in Sources */,
+				0E7131721EB5773900127D23 /* RecorderViewController.swift in Sources */,
 				0E71315A1EB5753400127D23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +309,7 @@
 				0E71316D1EB5753400127D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
